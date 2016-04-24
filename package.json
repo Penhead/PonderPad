@@ -4,7 +4,7 @@
   "description": "An App to help software engineers contextualize their solutions",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base build --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Penhead",

@@ -1,10 +1,9 @@
 import React from "react";
-
+import NavComp from "./Nav.js"
 
 const styles = {
     all: {
-        fontFamily: "sans-serif",
-        padding: "30px"
+        fontFamily: "'Montserrat', sans-serif",
     },
     h1: {
         fontSize: "150px",
@@ -33,14 +32,13 @@ export default class MainComponent extends React.Component{
     }
     
     render(){
-        console.log(this.state);
         return (
             <div style={styles.all}>
-                <h1 style={styles.h1}>PonderPad</h1>
+                <NavComp/>
+                
                 <div>
                     
                 </div>                
-                
             </div>
         )
     }    
