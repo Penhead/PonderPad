@@ -4,9 +4,10 @@ import React from "react";
 const styles = {
     h6:{
        display: "inline-block",
-       fontSize: "50px",
+       fontSize: "40px",
+       verticalAlign: "top",
        margin: "0px",
-       color: "#6ECCDA",
+       color: "#8BC34A",
        fontWeight: "100" 
     },
     logo:{
@@ -14,7 +15,7 @@ const styles = {
         marginRight: "15px"
     },
     nav: {
-        borderBottom: "3px solid #6ECCDA"
+        borderBottom: "5px solid #8BC34A"
     }
     
 }
