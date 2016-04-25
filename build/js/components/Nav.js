@@ -1,5 +1,4 @@
 import React from "react";
-//var logo = require("../../img/logo.png");
 
 const styles = {
     h6:{
