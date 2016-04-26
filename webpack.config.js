@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./build/js/entry.js",
+  entry: "./build/assets/js/entry.js",
   module: {
     loaders: [
       {
@@ -20,7 +20,7 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + "/build/",
+    path: __dirname + "/build/assets",
     filename: "entry.min.js"
   },
   plugins: debug ? [] : [
